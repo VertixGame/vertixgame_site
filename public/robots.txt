@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /login
+
+Sitemap: https://vertixgame.com/sitemap.xml
+
+# Crawl-delay para otimizar servidor
+Crawl-delay: 0
+
