@@ -11,8 +11,9 @@ export default defineConfig({
     },
   },
   build: {
-    // Minificação otimizada (esbuild é mais rápido, terser precisa ser instalado)
+    // Minificação otimizada com esbuild (mais rápido e não requer dependências extras)
     minify: 'esbuild',
+    // Garantir que não use terser
     // Code splitting otimizado
     rollupOptions: {
       output: {
