@@ -95,16 +95,6 @@ vertix-game/
 
 O projeto utiliza um sistema de autenticação mock através do `AuthContext`. Para produção, é necessário integrar com um backend real.
 
-### Credenciais de Teste
-
-- **Admin**: 
-  - Email: `admin@vertix.com`
-  - Senha: `admin123`
-
-- **Funcionário**: 
-  - Email: `employee@vertix.com`
-  - Senha: `employee123`
-
 ## 📱 Responsividade
 
 O projeto é totalmente responsivo e otimizado para:
